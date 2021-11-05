@@ -20,14 +20,14 @@ public class Ejemplo03 {
         String apellido;
         String nacimiento;
         
-        System.out.println("Ingrese el nombre del estudiante");
+        // System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
                                     // por teclado
         
-        System.out.println("Ingrese el apellido del estudiante");
+        // System.out.println("Ingrese el apellido del estudiante");
         apellido = entrada.nextLine();
         
-        System.out.println("Ingrese el año de nacimiento del estudiante");
+        // System.out.println("Ingrese el año de nacimiento del estudiante");
         nacimiento = entrada.nextLine();
         
         System.out.printf("Datos del estudiante\n%s\n%s\n%s\n", 
